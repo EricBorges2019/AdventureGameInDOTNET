@@ -1,0 +1,10 @@
+{
+    "name": "Room 1, 1",
+    "description": "The dark room is lit by a steady flame coming from the wall, which has left a dark stain above and on the ceiling.\nThere's a locked door before you.",
+    "inspects": [
+        {
+            "item": "flame",
+            "description": "The flame flickers slightly."
+        }
+    ]
+}
