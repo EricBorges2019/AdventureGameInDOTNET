@@ -1,0 +1,7 @@
+{
+    "name": "Library",
+    "description": "You are in a library. Bookshelves line the walls. There is a door to the west.",
+    "exits": {
+        "west": "room2.json"
+    }
+}

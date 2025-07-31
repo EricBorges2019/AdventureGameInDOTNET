@@ -1,0 +1,8 @@
+{
+    "name": "Corridor",
+    "description": "A long corridor stretches before you. There are doors to the east and west.",
+    "exits": {
+        "west": "room1.json",
+        "east": "room3.json"
+    }
+}

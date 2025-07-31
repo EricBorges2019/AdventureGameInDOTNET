@@ -6,5 +6,8 @@
             "item": "flame",
             "description": "The flame flickers slightly."
         }
-    ]
+    ],
+    "exits": {
+        "east": "room2.json"
+    }
 }
