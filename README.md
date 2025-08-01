@@ -21,6 +21,15 @@ To run this project, you need to have the .NET 8 SDK installed.
     dotnet run
     ```
 
+## Gameplay
+
+The game is a simple text-based adventure where you can move between rooms.
+
+### Commands
+
+*   `go <direction>`: Move to a different room. The available directions depend on the current room.
+*   `quit`: Exit the game.
+
 ## Room Data
 
 The room data is stored in JSON files in the `rooms/` directory. Each file represents a single room and has the following structure:
@@ -29,6 +38,9 @@ The room data is stored in JSON files in the `rooms/` directory. Each file repre
 {
     "name": "Room Name",
     "description": "A description of the room.",
+    "exits": {
+        "direction": "room_file.json"
+    },
     "inspects": [
         {
             "item": "item_name",
